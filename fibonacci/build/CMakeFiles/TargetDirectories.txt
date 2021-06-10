@@ -1,0 +1,7 @@
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/CMakeFiles/rebuild_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/CMakeFiles/edit_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/CMakeFiles/run_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/CMakeFiles/func.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/tests/CMakeFiles/edit_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/tests/CMakeFiles/all_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/fibonacci/build/tests/CMakeFiles/rebuild_cache.dir
