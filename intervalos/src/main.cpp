@@ -1,21 +1,28 @@
-/*!
- * @brief This code implements the Intervalos programming problem
- * @author selan
- * @data June, 6th 2021
- */
-
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
 #include <iomanip>
-using std::setprecision;
+using namespace std;
 
-// Se desejar, crie funções aqui, antes do main().
+float porcent(float gap, float total){
+    float porcent = (gap/total)*100;
+    return porcent;
+}
 
 int main(void)
 {
-    // TODO: Adicione aqui a sua solução.
+    float x;
+    float gap[5] = {};
+    while( cin >> std::ws >> x){
+        if(x >= 0 && x < 25) gap[0]++;
+        else if(x >= 25 && x < 50) gap[1]++;
+        else if(x >= 50 && x < 75) gap[2]++;
+        else if(x >= 75 && x < 100) gap[3]++;
+        else gap[4]++;
+    }
+    float total = gap[0] + gap[1]+ gap[2] + gap[3] + gap[4];
 
+    for(int i = 0; i < 5; ++i){
+        cout<<setprecision(4)<<porcent(gap[i], total)<<endl;
+    }
+    
     return 0;
 }

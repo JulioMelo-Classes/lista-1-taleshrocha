@@ -1,0 +1,8 @@
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/CMakeFiles/rebuild_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/CMakeFiles/edit_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/CMakeFiles/run_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/CMakeFiles/func.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/tests/CMakeFiles/edit_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/tests/CMakeFiles/all_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/tests/CMakeFiles/rebuild_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/filter/build/tests/CMakeFiles/TM.dir
