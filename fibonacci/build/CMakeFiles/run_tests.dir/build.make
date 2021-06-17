@@ -67,7 +67,7 @@ include CMakeFiles/run_tests.dir/compiler_depend.make
 include CMakeFiles/run_tests.dir/progress.make
 
 CMakeFiles/run_tests: libfunc.a
-	tests/all_tests 2> /dev/null
+	./all_tests
 
 run_tests: CMakeFiles/run_tests
 run_tests: CMakeFiles/run_tests.dir/build.make

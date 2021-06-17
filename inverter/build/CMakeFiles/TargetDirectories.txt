@@ -1,7 +1,5 @@
 /home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/CMakeFiles/rebuild_cache.dir
 /home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/CMakeFiles/edit_cache.dir
 /home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/CMakeFiles/run_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/CMakeFiles/all_tests.dir
 /home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/CMakeFiles/func.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/tests/CMakeFiles/edit_cache.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/tests/CMakeFiles/all_tests.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/inverter/build/tests/CMakeFiles/rebuild_cache.dir

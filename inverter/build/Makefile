@@ -130,6 +130,19 @@ run_tests/fast:
 .PHONY : run_tests/fast
 
 #=============================================================================
+# Target rules for targets named all_tests
+
+# Build rule for target.
+all_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_tests
+.PHONY : all_tests
+
+# fast build rule for target.
+all_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/build
+.PHONY : all_tests/fast
+
+#=============================================================================
 # Target rules for targets named func
 
 # Build rule for target.
@@ -141,19 +154,6 @@ func: cmake_check_build_system
 func/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/build
 .PHONY : func/fast
-
-#=============================================================================
-# Target rules for targets named all_tests
-
-# Build rule for target.
-all_tests: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_tests
-.PHONY : all_tests
-
-# fast build rule for target.
-all_tests/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/all_tests.dir/build.make tests/CMakeFiles/all_tests.dir/build
-.PHONY : all_tests/fast
 
 src/function.o: src/function.cpp.o
 .PHONY : src/function.o
@@ -179,6 +179,54 @@ src/function.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/src/function.cpp.s
 .PHONY : src/function.cpp.s
 
+tests/lib/test_manager/src/test_manager.o: tests/lib/test_manager/src/test_manager.cpp.o
+.PHONY : tests/lib/test_manager/src/test_manager.o
+
+# target to build an object file
+tests/lib/test_manager/src/test_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/lib/test_manager/src/test_manager.cpp.o
+.PHONY : tests/lib/test_manager/src/test_manager.cpp.o
+
+tests/lib/test_manager/src/test_manager.i: tests/lib/test_manager/src/test_manager.cpp.i
+.PHONY : tests/lib/test_manager/src/test_manager.i
+
+# target to preprocess a source file
+tests/lib/test_manager/src/test_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/lib/test_manager/src/test_manager.cpp.i
+.PHONY : tests/lib/test_manager/src/test_manager.cpp.i
+
+tests/lib/test_manager/src/test_manager.s: tests/lib/test_manager/src/test_manager.cpp.s
+.PHONY : tests/lib/test_manager/src/test_manager.s
+
+# target to generate assembly for a file
+tests/lib/test_manager/src/test_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/lib/test_manager/src/test_manager.cpp.s
+.PHONY : tests/lib/test_manager/src/test_manager.cpp.s
+
+tests/main.o: tests/main.cpp.o
+.PHONY : tests/main.o
+
+# target to build an object file
+tests/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/main.cpp.o
+.PHONY : tests/main.cpp.o
+
+tests/main.i: tests/main.cpp.i
+.PHONY : tests/main.i
+
+# target to preprocess a source file
+tests/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/main.cpp.i
+.PHONY : tests/main.cpp.i
+
+tests/main.s: tests/main.cpp.s
+.PHONY : tests/main.s
+
+# target to generate assembly for a file
+tests/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_tests.dir/build.make CMakeFiles/all_tests.dir/tests/main.cpp.s
+.PHONY : tests/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -193,6 +241,12 @@ help:
 	@echo "... src/function.o"
 	@echo "... src/function.i"
 	@echo "... src/function.s"
+	@echo "... tests/lib/test_manager/src/test_manager.o"
+	@echo "... tests/lib/test_manager/src/test_manager.i"
+	@echo "... tests/lib/test_manager/src/test_manager.s"
+	@echo "... tests/main.o"
+	@echo "... tests/main.i"
+	@echo "... tests/main.s"
 .PHONY : help
 
 
