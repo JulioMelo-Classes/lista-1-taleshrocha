@@ -1,0 +1,5 @@
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/ponto_em_retangulo_1/build/CMakeFiles/rebuild_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/ponto_em_retangulo_1/build/CMakeFiles/edit_cache.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/ponto_em_retangulo_1/build/CMakeFiles/run_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/ponto_em_retangulo_1/build/CMakeFiles/all_tests.dir
+/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/ponto_em_retangulo_1/build/CMakeFiles/func.dir
