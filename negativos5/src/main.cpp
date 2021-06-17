@@ -6,7 +6,13 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int n;
+    int count = 0;
+    for(int i = 0; i < 5; ++i){
+        cin>>n;
+        if(n < 0) count++;
+    }
+    cout<<count;
 
     return 0;
 }
