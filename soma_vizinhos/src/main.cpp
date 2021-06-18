@@ -1,16 +1,33 @@
-/*!
- * @brief This code implements the "Soma Vizinhos" programming problem
- * @author selan
- * @data June, 6th 2021
- */
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
+using namespace std;
 
-int main( void )
+int main(void)
 {
-    // TODO: Adicione seu código aqui. 
+    int m, n;
+    int res, aux;
+    int i = 0;
+    while(cin >> ws >> m >> n){ //Reads a undetermined number of lines
+        if(!(-10000 <= n and n <= 1000)) return 0;
+        //cout<<m<<n<<endl;
+        res = m; 
+        if(n >= 0){
+            for(int i = 1; i < n; ++i){
+                m++;
+                res += m;
+            }
+        }
+        else if(n < 0){
+            for(int i = -2; i >= n; --i){
+                m--;
+                res += m;
+            }
+        }
+        cout<<res<<endl;
+    }
+
+    /*for(int i = 0; i < 3; ++i){
+       cout<<i<<" "<<P[i].x<<P[i].y<<endl; 
+    }*/
 
     return 0;
 }

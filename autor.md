@@ -9,12 +9,12 @@ Preencha os dados abaixo para identificar a autoria do trabalho.
 # Questões Finalizadas
 
 - [X] Negativos 5
-- [ ] Soma Vizinhos
+- [X] Soma Vizinhos
 - [X] Intervalos
 - [X] Fibonacci
 - [X] Minmax
 - [X] Inverter
-- [X] Filtragem \\E precisa?
+- [X] Filtragem. E precisa?
 - [X] Ponto em Retângulo 1
 - [X] Ponto em Retângulo 2
 
