@@ -1,4 +1,0 @@
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/soma_vizinhos/build/CMakeFiles/rebuild_cache.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/soma_vizinhos/build/CMakeFiles/edit_cache.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/soma_vizinhos/build/CMakeFiles/verify.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/soma_vizinhos/build/CMakeFiles/program.dir

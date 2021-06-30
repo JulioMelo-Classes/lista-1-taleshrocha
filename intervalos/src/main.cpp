@@ -6,7 +6,7 @@ float porcent(float gap, float total){
     float porcent = (float) (gap/total)*100;
     return porcent;
 }
-
+/*blz*/
 int main(void)
 {
     int x;

@@ -1,5 +1,8 @@
 #include "function.h"
 
+/*
+ok
+*/
 std::vector<unsigned int> fib_below_n( unsigned int n ){
   vector<unsigned int> fib;
   for(int i = 0; i < n; i++){

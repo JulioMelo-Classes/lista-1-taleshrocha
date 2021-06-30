@@ -4,6 +4,7 @@
 using std::iter_swap;
 
 template <size_t SIZE>
+/*ok!*/
 void reverse( std::array< std::string, SIZE > & arr )
 {
     auto first = arr.begin();

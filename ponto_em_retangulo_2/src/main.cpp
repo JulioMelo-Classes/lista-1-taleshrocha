@@ -26,7 +26,9 @@ void prtres(int res){
     else if(res == 1) cout<<"border"<<endl;
     if(res == 2) cout<<"outside"<<endl;
 }
-
+/*
+ok!
+*/
 int main(void)
 {
     int x, y;

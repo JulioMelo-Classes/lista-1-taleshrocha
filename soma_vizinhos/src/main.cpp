@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-
+/*
+ok
+*/
 int main(void)
 {
     int m, n;

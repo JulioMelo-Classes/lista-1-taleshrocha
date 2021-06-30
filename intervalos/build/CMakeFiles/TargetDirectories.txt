@@ -1,4 +1,0 @@
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/intervalos/build/CMakeFiles/rebuild_cache.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/intervalos/build/CMakeFiles/edit_cache.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/intervalos/build/CMakeFiles/verify.dir
-/home/tales/Documents/2021.1/LP1/lista-1-taleshrocha/intervalos/build/CMakeFiles/program.dir

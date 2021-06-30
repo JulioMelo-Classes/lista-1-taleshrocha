@@ -1,5 +1,6 @@
 #include "function.h"
 
+/*blz*/
 location_t pt_in_rect(const Ponto &IE, const Ponto &SD, const Ponto &P){
     bool inSD, inIE;
     inSD = inIE = false;

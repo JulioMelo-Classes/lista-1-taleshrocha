@@ -1,5 +1,7 @@
 #include "function.h"
-
+/*
+ok
+*/
 std::pair<int,int> min_max( int V[], std::size_t n )
 {
     int min, max; min = max = 0;
